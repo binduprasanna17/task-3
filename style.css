@@ -1,0 +1,96 @@
+
+
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+    h2 {
+      text-align: center;
+      color:black;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+ 
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+ 
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .task-board {
+      flex-grow: 1;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .task {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      align-items: center;
+    }
+
+    .task p {
+      margin: 0;
+    }
+
+    .actions button {
+      margin-left: 5px;
+      border: none;
+      border-radius: 4px;
+      padding: 4px 8px;
+      cursor: pointer;
+    }
+
+    .edit { background-color: #ffa500; color: white; }
+    .done { background-color: #007bff; color: white; }
+    .delete { background-color: #dc3545; color: white; }
+
+    .section-title {
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .timestamp {
+      font-size: 0.75em;
+      color: gray;
+    }
+ 
